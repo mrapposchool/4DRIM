@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>Test page 4D RIM</title>
+        <meta name="author" content="Matteo Rappo">
+        <meta name="description" content="Questa è una pagina di prova in linguaggio HTML per la classe 4D RIM">
+        <meta name="keywords" content="4D RIM, HTML">
+        
+        
+        <style>
+        table.roundedCorners {border: 1px solid DarkOrange;border-radius: 13px;border-spacing: 0;}
+        table.roundedCorners td, 
+        table.roundedCorners th{border-bottom: 1px solid DarkOrange;padding: 10px;}
+        table.roundedCorners tr:last-child > td {border-bottom: none;}
+        table.roundedCorners tr:nth-child(even){background-color: #eee;}
+        table.roundedCorners tr:nth-child(odd){background-color: #fff;}  
+        </style>
+
+    </head>
+
+	
+	
+	
+	<BODY>
+
+	    
+	        <h1>Benvenuta 4D RIM!</h1>
+	        <h2>Questa è una pagina di prova HTML</h2>
+	        <h3>Vedremo i principali elementi del linguaggio HTML</h3>	    
+	    
+	    
+	    <hr/>
+	    
+	    <h1 style="font-family:verdana;color:#002966;">Le pagine Web</h1>
+	    <div style="font-family:verdana;color:#0047b3;">
+	    Le pagine Web sono costruite mediante l'utilizzo di due elementi principali:
+	    <ul>
+            <li> Linguaggio HTML: contenuto della pagina Web
+           	<li> Fogli di stile CSS: layout
+        </ul>
+	    Le pagine Web contengono due tipi di oggetti:
+	    <ul>
+            <li> Testo del documento
+           	<li> Marcatori del linguaggio HTML: <b>tag</b>
+        </ul>
+        </div>
+        
+        <p style="font-family:verdana;color:#005ce6;">Regole fondamentali per la corretta scrittura delle pagine Web</p>
+        <div style="font-family:verdana;color:#005ce6;">
+        <ol>
+            <li> I tag sono scritti tra parentesi angolari
+           	<li> Ogni tag deve essere aperto e chiuso
+           	<li> Normalmente la chiusura di un tag avviene tramite la barra / (slash) che precede il nome del tag
+           	<li> I file di una pagina Web hanno estensione <i>.htm</i> o <i>.html</i>
+        </ol>
+        </div>
+        
+        <br>
+        <h2 style="font-family:verdana;color:#003300;">Struttura generale di una pagina Web</h2>
+        <div style="font-family:verdana;color:#003300;">
+        &lt;html&gt;
+        <br>
+        <p style="text-indent:5em">&lt;head&gt;</p>
+        <p style="text-indent:5em">&lt;/head&gt;</p>
+        <br>
+        <p style="text-indent:5em">&lt;body&gt;</p>
+        <p style="text-indent:5em">&lt;/body&gt;</p>
+        <br>
+
+        &lt;/html&gt;
+        
+        <br>
+        I due tag <i>&lt;head&gt;</i> e <i>&lt;body&gt;</i> si trovano sempre all'interno del tag <i>&lt;html&gt;</i>. 
+        <br>
+        Il tag <i>&lt;/html&gt;</i> è chiamato <i>tag radice</i> in quanto contiene al suo interno tutti gli altri tag.
+        </div>
+        
+        <p style="font-family:verdana;color:#269900;">HEAD</p>
+        <div style="font-family:verdana;color:#269900;">
+        La testa (<i>head</i>) contiene informazioni che nella maggior parte dei casi non vengono visualizzate direttamente. Gli elementi principali che si utilizzano sono:
+        <ul>
+            <li> <b>Tag title</b>: contiene il titolo della pagina che verrà visualizzato  nella barra del titolo del browser
+           	<li> <b>Metadati</b>: informazioni invisibili agli utenti, ma utili per la classificazione della pagina Web e importanti per l'indicizzazione corretta all'interno dei motori di ricerca
+           	    <ul>
+                <li> charset: definisce l'elenco dei caratteri che vengono usati
+           	    <li> author
+           	    <li> description
+           	    <li> keywords
+                </ul>
+      
+        </ul>
+        </div>
+        
+        
+        <p style="font-family:verdana;color:#008000;">BODY</p>
+        <div style="font-family:verdana;color:#008000;">
+        All'interno del <i>body</i> si trova il testo vero e proprio, comprensivo di evenutali link immagini e tabelle.
+        
+        </div>
+        <br> 
+        <br>
+        <table class="roundedCorners">
+            
+            <tr>
+            <th>Numero Elenco</th>
+            <th>Cognome</th>
+            <th>Nome</th>
+            </tr>
+            
+            <tr>
+            <td style="text-align:center;">1</td>
+            <td>Albergante</td><td>Andrea</td>
+            </tr>
+            
+            <tr>
+            <td style="text-align:center;">2</td>
+            <td>Ayari</td>
+            <td>Ghada</td>
+            </tr>
+            
+            <tr>
+            <td style="text-align:center;">3</td>
+            <td>Benedetti</td>
+            <td>Laura</td>
+            </tr>
+            
+            <tr>
+            <td style="text-align:center;">4</td>
+            <td>Benevento</td>
+            <td>Andrea</td>
+            </tr>
+        </table>
+        
+        
+	    
+	    <span style="display:block; height:200px;"></span>
+	    <h2 style="font-family:verdana;color:#002966;">Inseriamo un'immagine</h2>
+	    <img src="Mountain_01.jpg" alt="Mountain Lake" style="height:30%; width:30%">
+	    
+	    <div style="text-align:center">
+	    <img src="Mountain_02.jpg" alt="Mountain Lake" style="height:30%; width:30%">
+	    </div>
+	    
+	    <div style="text-align:right">
+	    <img src="Mountain_03.jpg" alt="Mountain Lake" style="height:30%; width:30%">
+	    </div>
+	    
+	    <!--  <span style="display:inline-block; width: YOURWIDTH;"><!/span>         Spaziatura orizzonale -->
+	    <span style="display:block; height:100px;"></span><!-- Spaziatura verticale -->
+	    <p style="font-family:verdana;color:#0047b3;text-align:center;">è stato inserito uno spazio verticale!!!</p>
+	    <figure style="text-align:center">
+	    <img src="Mountain_04.jpg" alt="The Pulpit Rock" style="height:50%; width:50%">
+	    <figcaption style="font-family:verdana;">Label dell'immagine: The sun sets over a village on the Lofoten Islands in Norway</figcaption>
+	    </figure>
+	    
+	    
+	    <div style="text-align:center">
+	    <img src="immagineProva.jpg" alt="Testo alternativo se non è possibile visualizzare l'immagine" style="height:100px; width:100px">
+	    </div>
+	    
+	    
+	    <span style="display:block; height:200px;"></span>
+	    <h2 style="font-family:verdana;color:#002966;">Link ad altri siti Web</h2>
+	    <a href="http://www.quirinale.it/">Sito Web del Quirinale</a>
+	    
+	    
+	    
+
+    	
+    	
+	</BODY>
+
+	
+
+</html>
